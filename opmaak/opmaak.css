@@ -1,11 +1,28 @@
 * {
 	font-size: 16px;
-
+	font-family:Times New Roman;
+	margin: 0;
+    padding: 0;
+}
+header{
+	background-color:#2C3E50;
+	
+}
+body{
+	background-color:#CEC5B6;
 }
  h1{
 	text-align: center;
 	
 }
+
 nav{
 	float: left;
+}
+img{
+	width:150px;
+}
+footer{
+	background-color:#2C3E50;
+	
 }
