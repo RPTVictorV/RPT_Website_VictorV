@@ -1,9 +1,10 @@
 * {
-	font-size: 16px;
+	
 	font-family: Times New Roman;
 	margin: 0px;
     padding: 0px;
 	font-size: 26px;	
+	max-width:2200px;
 }
 
 body {
