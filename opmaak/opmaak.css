@@ -1,12 +1,12 @@
+/* Algemene instellingen voor alle elementen */
 * {
-	
-	font-family: Times New Roman;
+	font-family: arial;
 	margin: 0px;
     padding: 0px;
-	font-size: 26px;	
-	max-width:2200px;
+	font-size: 66px;	
 }
 
+/* Stijl voor de body */
 body {
 	font-family: Times serif;
     font-size: 26px;
@@ -14,70 +14,91 @@ body {
     padding: 0;
 }
 
+/* Opmaak van de header met achtergrondafbeelding */
 header {
-	background-color: #2C3E50;
-	text-align: center;
+    background-image: url('../plaatjes/kotjes.jpg'); 
+    background-size: cover;       /* Bedekt het hele header-vlak */
+    background-position: center;  
+    
+    text-align: center;
+    padding: 50px 20px;
+    color: white;	/* Maakt de tekst goed leesbaar */
+	padding-bottom: 400px;
 }
 
-
+/* Hoofdgedeelte van de pagina */
 main {
 	background-color: #CEC5B6;
-	
 }
 
+/* Titels en inleidende teksten */
 h1 {
 	text-align: center;
-	font-size: 50px;
+	font-size: 190px;
+	padding-top: 1400px;
 }
 
 p.inleiding {
-	font-size: 32px;
+	font-size: 80px;
 	text-align: center;
 }
 
-ul {
-	list-style-type: square;
-	padding-left: 20px;	
+P.inleiding2 {
+	width: 2300px;
 }
 
+/* Afbeelding en sectie: Zien & Doen */
 img.afbeelding2 {
-    width: 600px;
+    width: 1600px;
 	float: right;
+	margin-right: 100px;
+	padding-top: 100px;
 }	
 
 article#zien-doen {
-	font-weight: bold;	
+	margin-left: 100px;
+	padding-top: 100px;
 }
 
+/* Sectie: Overnachtingen */
 article.overnachtingen {
-	width: 500px;
+	width: 1500px;
 	padding-right: 0px;
-	margin-top: -250px;
+	margin-top: -700px;
     float: right;
-	margin-right: 150px;
+	margin-right: 100px;
 }
 
+/* Sectie: Restaurants */
 article.restauranten {
-	width: 800px;
+	width: 2300px;
 	margin-top: 150px;
+	padding-bottom: 150px;
+	margin-left: 100px;
 }
 
+/* Overige afbeeldingen */
 img.afbeelding1 {
-	width: 600px;	
-	margin-top: 150px;		
+	width: 1600px;	
+	margin-top: 450px;	
+	margin-left: 100px;
 }
 
 img.afbeelding3 {
-	width: 600px;
-	margin-top: -350px;
+	width: 1600px;
+	margin-top: -950px;
 	float: right;
-	margin-bottom:0px;
+	margin-right: 100px;
 }
 
+/* Standaard tekststijl voor paragrafen */
+p {
+	font-weight: normal;
+}
 
+/* Voettekst van de pagina */
 footer {
 	background-color: #2C3E50;
 	margin-top: 0px;
-	margin-bottom:0px;
-	
+	margin-bottom: 0px;
 }
