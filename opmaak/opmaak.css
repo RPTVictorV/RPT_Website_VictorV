@@ -1,104 +1,105 @@
-/* Algemene instellingen voor alle elementen */
-* {
-	font-family: arial;
-	margin: 0px;
-    padding: 0px;
-	font-size: 66px;	
-}
+/* Alle elementen */
+* { /* Universele selector */
+	margin: 0px; /* Geen buitenmarge */
+	padding: 0px; /* Geen binnenmarge */
+	font-size: 66px; /* Standaard lettergrootte */
+} /* Einde universele selector */
 
-/* Stijl voor de body */
-body {
-	font-family: Times serif;
-    font-size: 26px;
-    margin: 0;
-    padding: 0;
-}
+/* Body */
+body { /* Tag-selector */
+	font-family: Arial, Helvetica, sans-serif; /* Lettertype */
+} /* Einde body */
 
-/* Opmaak van de header met achtergrondafbeelding */
-header {
-    background-image: url('../plaatjes/kotjes.jpg'); 
-    background-size: cover;       /* Bedekt het hele header-vlak */
-    background-position: center;  
-    
-    text-align: center;
-    padding: 50px 20px;
-    color: white;	/* Maakt de tekst goed leesbaar */
-	padding-bottom: 400px;
-}
+/* Header */
+header { /* Tag-selector */
+	background-image: url('../plaatjes/kotjes.jpg'); /* Achtergrondafbeelding */
+	background-size: cover; /* Bedekt hele header */
+	background-position: center; /* Afbeelding gecentreerd */
+	text-align: center; /* Tekst gecentreerd */
+	color: white; /* Witte tekst (kleurnaam) */
+	padding: 50px 20px 400px 20px; /* Binnenmarge: boven, rechts, onder, links */
+} /* Einde header */
 
-/* Hoofdgedeelte van de pagina */
-main {
-	background-color: #CEC5B6;
-}
+/* Main */
+main { /* Tag-selector */
+	background-color: #CEC5B6; /* Achtergrondkleur in hex */
+} /* Einde main */
 
-/* Titels en inleidende teksten */
-h1 {
-	text-align: center;
-	font-size: 190px;
-	padding-top: 1400px;
-}
 
-p.inleiding {
-	font-size: 80px;
-	text-align: center;
-}
+/* Titels en inleiding */
+h1 { /* Tag-selector */
+	text-align: center; /* Titel gecentreerd */
+	font-size: 190px; /* Grote lettergrootte */
+	padding-top: 1400px; /* Ruimte boven de titel */
+} /* Einde h1 */
 
-P.inleiding2 {
-	width: 2300px;
-}
+.inleiding { /* Class-selector */
+	font-size: 80px; /* Lettergrootte inleiding en menu */
+	text-align: center; /* Tekst gecentreerd */
+} /* Einde .inleiding */
 
-/* Afbeelding en sectie: Zien & Doen */
-img.afbeelding2 {
-    width: 1600px;
-	float: right;
-	margin-right: 100px;
-	padding-top: 100px;
-}	
+p.inleiding2 { /* Alinea met class inleiding2 */
+	width: 2300px; /* Vaste breedte */
+} /* Einde p.inleiding2 */
 
-article#zien-doen {
-	margin-left: 100px;
-	padding-top: 100px;
-}
+/* Navigatielijst */
+nav ul { /* Lijst binnen nav */
+	list-style-type: square; /* Vierkant opsommingsteken */
+	list-style-position: inside; /* Teken binnen de tekst */
+} /* Einde nav ul */
 
-/* Sectie: Overnachtingen */
-article.overnachtingen {
-	width: 1500px;
-	padding-right: 0px;
-	margin-top: -700px;
-    float: right;
-	margin-right: 100px;
-}
+/* Zien & doen */
+img.afbeelding2 { /* Afbeelding met class afbeelding2 */
+	width: 1600px; /* Vaste breedte */
+	float: right; /* Zweeft rechts */
+	margin-right: 100px; /* Marge rechts */
+	padding-top: 100px; /* Ruimte boven */
+} /* Einde img.afbeelding2 */
 
-/* Sectie: Restaurants */
-article.restauranten {
-	width: 2300px;
-	margin-top: 150px;
-	padding-bottom: 150px;
-	margin-left: 100px;
-}
+article#zien-doen { /* Id-selector */
+	margin-left: 100px; /* Marge links */
+	padding-top: 100px; /* Ruimte boven */
+} /* Einde article#zien-doen */
+
+/* Overnachtingen */
+article.overnachtingen { /* Article met class overnachtingen */
+	width: 1500px; /* Vaste breedte */
+	margin-top: -700px; /* Schuift omhoog */
+	float: right; /* Zweeft rechts */
+	margin-right: 100px; /* Marge rechts */
+} /* Einde article.overnachtingen */
+
+/* Restaurants */
+article.restauranten { /* Article met class restauranten */
+	width: 2300px; /* Vaste breedte */
+	margin-top: 150px; /* Marge boven */
+	padding-bottom: 150px; /* Ruimte onder */
+	margin-left: 100px; /* Marge links */
+} /* Einde article.restauranten */
 
 /* Overige afbeeldingen */
-img.afbeelding1 {
-	width: 1600px;	
-	margin-top: 450px;	
-	margin-left: 100px;
-}
+img.afbeelding1 { /* Afbeelding met class afbeelding1 */
+	width: 1600px; /* Vaste breedte */
+	margin-top: 450px; /* Marge boven */
+	margin-left: 100px; /* Marge links */
+} /* Einde img.afbeelding1 */
 
-img.afbeelding3 {
-	width: 1600px;
-	margin-top: -950px;
-	float: right;
-	margin-right: 100px;
-}
+img.afbeelding3 { /* Afbeelding met class afbeelding3 */
+	width: 1600px; /* Vaste breedte */
+	margin-top: -950px; /* Schuift omhoog */
+	float: right; /* Zweeft rechts */
+	margin-right: 100px; /* Marge rechts */
+} /* Einde img.afbeelding3 */
 
-/* Standaard tekststijl voor paragrafen */
-p {
-	font-weight: normal;
-}
+/* Alinea's */
+p { /* Tag-selector */
+	font-weight: normal; /* Niet vet */
+} /* Einde p */
 
-/* Voettekst van de pagina */
-footer {
-	background-color: #2C3E50;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
+/* Footer */
+footer { /* Tag-selector */
+	background-color: rgb(44, 62, 80); /* Achtergrondkleur in rgb */
+	color: white; /* Witte tekst */
+	text-align: center; /* Tekst gecentreerd */
+	padding: 20px; /* Binnenmarge */
+} /* Einde footer */
